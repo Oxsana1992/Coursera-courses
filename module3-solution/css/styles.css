@@ -1,0 +1,123 @@
+body {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 16px;
+	color: #36454F;
+	background-color: #D3D3D3;
+}
+/** HAEDER **/
+#header-nav {
+	background-color: #71797E; 	/* Назначен: цвет области меню */
+	border-radius: 0; 			/* Назначен радиус границ области меню */
+	border: 0;					/* Назначены стили границ области меню */
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /*Restorant name*/
+	color: #36454F;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #C0C0C0;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #36454F;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/** END HAEDER **/
+/* LIST */
+#nav-list {
+	margin-top: 10px;
+	background-color: #36454F;
+}
+#nav-list a {
+	color: #D3D3D3;
+	text-align: center;
+	border: 1px solid #D3D3D3;
+}
+#nav-list a:hover {
+	color: #36454F;
+	background: #D3D3D3;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+/* END LIST */
+/* MENU CONTENT */
+
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+/* END MENU CONTENT */
+/** CATEGORY TILE**/
+.category-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	margin: 0 auto 15px;
+	background-color: #71797E;
+	color: #1B1212;
+}
+.category-tile h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+.category-tile p {
+	text-align: left;
+	margin: 15px;
+	font-size: 1.3em;
+}
+.category-tile a {
+	color: #D3D3D3;
+	text-align: center;
+}
+.category-tile a:hover {
+	color: #36454F;
+	background: #D3D3D3;
+}
+/** CATEGORY TILE**/
+
+/**** Large divices only ****/
+@media (min-width: 1200px) {
+
+}
+
+/**** Medium divices only ****/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/**** Small divices only ****/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/**** Extra small divices only ****/
+@media (max-width: 767px) {
+	/** Header **/
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /*Restorant name*/
+		padding-top: 10px;
+		font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	/** End Header **/
+}

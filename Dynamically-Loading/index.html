@@ -15,7 +15,7 @@
 	<script>
 		const xhr = new XMLHttpRequest()
 		const mainContent = document.getElementById('main-content')
-		xhr. onload = () => {
+		xhr.onload = () => {
 			if (this.status === 200) {
 				mainContent.innerHTML = xhr.responseText
 			} else {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dynamically Loading</title>
+</head>
+<body>
+	<h1>Ниже должен быть список</h1>
+
+	<div id="container"></div>	<!--End of #main-content-->
+
+	<script>
+		const xhr = new XMLHttpRequest();
+		const container = document.getElementById('container');
+		xhr.onload = function() {
+			if (this.status === 200) {
+				container.innerHTML = xhr.responseText;
+			} else {
+				console.log('Did not recieve 200 OK from response!');
+			}
+		};
+		xhr.open('get', 'home-snippet.html');
+		xhr.send();
+	</script>	
+</body>
+</html>

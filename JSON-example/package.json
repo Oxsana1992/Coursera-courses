@@ -1,14 +1,7 @@
 {
-  "name": "objects",
-  "version": "1.0.0",
-  "description": "My library for storing data about objects",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "data"
-  ],
-  "author": "MasterL",
-  "license": "ISC"
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
 }

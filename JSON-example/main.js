@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use('/public', express.static('public'));
 
 // Чтение из файла
-let file = fs.readFileSync('jbjects.json', 'utf8');
+let file = fs.readFileSync('objects.json', 'utf8');
 let jsObjectData = JSON.parse(file)
 // Форма
 app.post('/add', urlencodeParser, (reg, res) => {

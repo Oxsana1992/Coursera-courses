@@ -1,0 +1,7 @@
+console.log(object)
+const json = JSON.stringify(object)
+команда переводит описание объектов в json
+cosole.log(json)
+const newObj = JSON.parse(json);
+команда переводит json строку в объект
+console.log(newObj)

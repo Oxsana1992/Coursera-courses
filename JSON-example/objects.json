@@ -1,0 +1,12 @@
+[
+    {
+        "name": "object name",
+        "description": "object is small",
+        "year": "2022",
+        "status": "active"
+    },
+    { "name": "table",
+    "description": "made of wood",
+    "year": "in 2020",
+    "status": "usable"}
+]

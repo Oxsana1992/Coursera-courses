@@ -1,0 +1,13 @@
+{
+    "firstName": "Oxana",
+    "lastName": "Loktionova",
+    "age": 30,
+    "parentsNames" : {
+        "fathersName": "Evgenii Nikolaevich",
+        "mathersName": "Evgenia Michilovna"
+    },
+    "education": [
+        "VGPGK",
+        "VGU"
+    ]
+}

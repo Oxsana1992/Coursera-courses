@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека объектов</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <%- include('blocks/menu.ejs') %> 
+    <h1>Добавить объект:</h1>
+    <form method="post" action="/add">
+        <input name="name" type="text" placeholder="object name"><br>
+        <input name="year" type="text" placeholder="year"><br>
+        <input name="status" type="text" placeholder="status"><br>
+        <textarea name="description" cols="30" rows="5" placeholder="description1, description2, description3 ..."></textarea><br>
+        <button type="submit">Добавить</button>
+    </form>
+</body>
+</html>

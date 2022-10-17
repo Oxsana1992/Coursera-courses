@@ -25,7 +25,7 @@ $(
     const dc = {};
     const homeHtml = "snippets/home-snippet.html";
     const allCategoriesUrl =
-      "html://davids-restorant.herokuapp.com/categories.json";
+      "json/categories.json";
     const categoriesTitleHtml = "snippets/categories-title-snippet.html";
     const categoryHtml = "snippets/category-snippet.html";
     // Conviniece function for inserting innerHTMLfor 'select'
@@ -57,7 +57,7 @@ $(
       );
     });
 
-    dc.loadMenuCategories = () => {
+    dc.loadMenuCategories = function() {
       showLoading("#main-content");
       $ajaxUtils.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);
     };
@@ -76,11 +76,9 @@ $(
               );
               insertHtml("#main-content", categoriesViewHtml);
             },
-            false
-          );
+            false);
         },
-        false
-      );
+        false);
     }
 
     function buildCategoriesViewHtml(
@@ -88,13 +86,13 @@ $(
       categoriesTitleHtml,
       categoryHtml
     ) {
-      const finalHtml = categoriesTitleHtml;
+      let finalHtml = categoriesTitleHtml;
       finalHtml += "<section class='row'>";
 
       for (let i = 0; i < categories.length; i++) {
-        const html = categoryHtml;
-        const name = "" + categories[i].name;
-        const short_name = categories[i].short_name;
+        let html = categoryHtml;
+        let name = "" + categories[i].name;
+        let short_name = categories[i].short_name;
         html = insertProperty(html, "name", name);
         html = insertProperty(html, "short_name", short_name);
         finalHtml += html;

@@ -75,5 +75,12 @@
         "name": "Dessert",
         "special_instructions": "",
         "url": "json/categories/91.json"
+    },
+    {
+        "id": 92,
+        "short_name": "Specials",
+        "name": "Specials",
+        "special_instructions": "",
+        "url": "json/categories/92.json"
     }
 ]

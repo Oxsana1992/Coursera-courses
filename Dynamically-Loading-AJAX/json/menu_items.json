@@ -1,0 +1,554 @@
+{
+    "menu_items": [
+        {
+            "id": 811,
+            "short_name": "SO1",
+            "name": "Won Ton Soup with Chicken",
+            "description": "chicken-stuffed won tons in clear chicken broth with white meat chicken pieces and a few scallions",
+            "price_small": 2.55,
+            "price_large": 5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 812,
+            "short_name": "SO2",
+            "name": "Egg Drop Soup",
+            "description": "chicken broth with egg drop",
+            "price_small": 2.25,
+            "price_large": 4.5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 813,
+            "short_name": "SO3",
+            "name": "Chicken Corn Soup",
+            "description": "clear chicken broth with creamy corn and egg drop with white meat chicken pieces",
+            "price_small": 2.75,
+            "price_large": 5.5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 814,
+            "short_name": "SO4",
+            "name": "Hot and Sour Soup",
+            "description": "tofu, chicken, mushroom, bamboo shoot, and egg",
+            "price_small": 2.55,
+            "price_large": 5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 815,
+            "short_name": "SO5",
+            "name": "Egg Drop with Won Ton Soup",
+            "description": "chicken soup with egg drop and won tons",
+            "price_small": 3,
+            "price_large": 6,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 816,
+            "short_name": "SO6",
+            "name": "Chicken Noodle (or Rice) Soup",
+            "description": "clear broth and lo mein noodles or white rice, chicken pieces",
+            "price_small": 2.55,
+            "price_large": 5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 817,
+            "short_name": "SO",
+            "name": "Garden Vegetable Soup",
+            "description": "clear chicken broth with mixed vegetables (carrots, cabbage, baby corn, mushroom, snow peas)",
+            "price_small": 2.55,
+            "price_large": 5,
+            "small_portion_name": "pint",
+            "large_portion_name": "quart"
+        },
+        {
+            "id": 818,
+            "short_name": "M1",
+            "name": "Beef Egg Roll",
+            "description": "eggroll with cabbage, carrots and beef",
+            "price_small": null,
+            "price_large": 3,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 819,
+            "short_name": "M2",
+            "name": "Spring Roll (1)",
+            "description": "thin wraps with white meat and cabbage",
+            "price_small": null,
+            "price_large": 3,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 820,
+            "short_name": "M",
+            "name": "Fried Won Ton with Chicken Meat (6)",
+            "description": "triangle shaped won ton with ground white meat chicken inside",
+            "price_small": null,
+            "price_large": 6.25,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 821,
+            "short_name": "R1",
+            "name": "Brown Rice",
+            "description": "",
+            "price_small": 2.5,
+            "price_large": 4,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 822,
+            "short_name": "R2",
+            "name": "Extra White Rice",
+            "description": "",
+            "price_small": 2.5,
+            "price_large": 4,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 823,
+            "short_name": "R3",
+            "name": "Extra Fried Rice",
+            "description": "",
+            "price_small": 2.5,
+            "price_large": 4,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"  
+        },
+        {
+            "id": 824,
+            "short_name": "R",
+            "name": "Chicken in Soothing Lettuce Wraps",
+            "description": "white-meat chicken with mushrooms, green peppers, water chestnuts, carrots sauteed with special house sauce, wrapped in fresh lettuce",
+            "price_small": null,
+            "price_large": 8.9,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 825,
+            "short_name": "SP1",
+            "name": "Chinese Scallion Pancake Wrap",
+            "description": "with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable",
+            "price_small": null,
+            "price_large": 18.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 826,
+            "short_name": "SP2",
+            "name": "Teriyaki Chicken",
+            "description": "marinated grilled chicken breast with vegetables and lo mein on the side",
+            "price_small": null,
+            "price_large": 18.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 827,
+            "short_name": "SP",
+            "name": "Teriyaki Chicken",
+            "description": "marinated grilled chicken breast with vegetables and lo mein on the side",
+            "price_small": null,
+            "price_large": 18.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 828,
+            "short_name": "C1",
+            "name": "Orange Chicken",
+            "description": "chunks of chicken, breaded and deep-fried with sauce containing orange peels; white meat by request: for pint $1 extra, for large $2 extra",
+            "price_small": 10.95,
+            "price_large": 14.95,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 829,
+            "short_name": "C2",
+            "name": "General Tso's Chicken",
+            "description": "chunks of chicken, breaded and deep-fried with sauce and scallions; white meat by request: for pint $1 extra, for large $2 extra",
+            "price_small": 10.95,
+            "price_large": 14.95,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 830,
+            "short_name": "C",
+            "name": "Teriyaki Chicken",
+            "description": "marinated grilled chicken breast with vegetables and lo mein on the side",
+            "price_small": null,
+            "price_large": 18.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 831,
+            "short_name": "F1",
+            "name": "Beef Broccoli",
+            "description": "sliced beef sauteed with broccoli in brown sauce",
+            "price_small": 11.45,
+            "price_large": 15.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 832,
+            "short_name": "F2",
+            "name": "Hunan Beef",
+            "description": "beef sauteed with broccoli, mushrooms, and carrots in spicy Hunan sauce",
+            "price_small": 11.45,
+            "price_large": 15.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 832,
+            "short_name": "F",
+            "name": "Szechuan Beef",
+            "description": "beef sauteed with carrots and celery, in a spicy Szechuan sauce",
+            "price_small": 11.45,
+            "price_large": 15.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 833,
+            "short_name": "N1",
+            "name": "Hunan Veal",
+            "description": "veal sauteed with broccoli, mushrooms, and carrots in spicy Hunan sauce",
+            "price_small": 12.45,
+            "price_large": 18.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 834,
+            "short_name": "N2",
+            "name": "Veal with Mixed Vegetables",
+            "description": "sliced veal sauteed with carrots, broccoli, snow peas, string beans, water chestnuts, and mushrooms in brown sauce",
+            "price_small": 12.45,
+            "price_large": 18.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 835,
+            "short_name": "N3",
+            "name": "Veal with Garlic Sauce",
+            "description": "sliced veal sauteed with mushrooms, string beans, and water chestnuts in garlic sauce",
+            "price_small": 12.45,
+            "price_large": 18.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 836,
+            "short_name": "N4",
+            "name": "Kung Pao Veal",
+            "description": "sliced veal sauteed with peanuts and celery in delicious Kung Pao sauce",
+            "price_small": 12.45,
+            "price_large": 18.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 837,
+            "short_name": "N",
+            "name": "Mongolian Veal",
+            "description": "veal sauteed with onions, green onions, and bamboo shoots in chef's sauce",
+            "price_small": 12.45,
+            "price_large": 18.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 838,
+            "short_name": "DU1",
+            "name": "Peking Duck",
+            "description": "marinated duck roasted crisp and served with pancake and green onion with special sauce",
+            "price_small": 28.95,
+            "price_large": 52.95,
+            "small_portion_name": "half",
+            "large_portion_name": "whole"
+        },
+        {
+            "id": 839,
+            "short_name": "DU2",
+            "name": "Crispy Duck",
+            "description": "boneless duck meat, lightly breaded, deep fried to a crisp, topped with vegetables in chef's special sauce",
+            "price_small": null,
+            "price_large": 30.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 840,
+            "short_name": "DU",
+            "name": "Duck with Vegetables",
+            "description": "sliced lean duck meat sauteed with mixed vegtables in brown sauce",
+            "price_small": null,
+            "price_large": 30.95,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 841,
+            "short_name": "HP1",
+            "name": "Wok's Mixed Vegetables",
+            "description": "broccoli, carrots, baby corn, water chestnuts, mushrooms, and snow peas sauteed in brown sauce",
+            "price_small": 9.45,
+            "price_large": 11.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 842,
+            "short_name": "HP2",
+            "name": "Sauteed String Beans, Szechuan",
+            "description": "onions and string beans sauteed with chef's sauce",
+            "price_small": 9.45,
+            "price_large": 11.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 843,
+            "short_name": "HP",
+            "name": "Eggplant in Garlic Sauce",
+            "description": "eggplant sauteed with water chestnuts and string beans in garlic sauce",
+            "price_small": 9.45,
+            "price_large": 11.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 844,
+            "short_name": "SN1",
+            "name": "Vegetable Chow Mein",
+            "description": "broccoli, snow peas, onions, bean sprouts, and celery sauteed with white sauce",
+            "price_small": 8.95,
+            "price_large": 11.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 845,
+            "short_name": "SN2",
+            "name": "Chicken Chow Mein",
+            "description": "white meat chicken sauteed with bean sprouts, onions, and celery in white sauce",
+            "price_small": 9.95,
+            "price_large": 12.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 846,
+            "short_name": "SN3",
+            "name": "Beef Chow Mein",
+            "description": "beef sauteed with bean sprouts, onions, and celery in brown sauce",
+            "price_small": 9.95,
+            "price_large": 12.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 847,
+            "short_name": "SN",
+            "name": "Veal Chow Mein",
+            "description": "veal sauteed with bean sprouts, onions, and celery in brown sauce",
+            "price_small": 10.95,
+            "price_large": 13.45,
+            "small_portion_name": "pint",
+            "large_portion_name": "large"
+        },
+        {
+            "id": 848,
+            "short_name": "S1",
+            "name": "California Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 849,
+            "short_name": "S2",
+            "name": "Salmon Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 5.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 850,
+            "short_name": "S3",
+            "name": "Tuna Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 5.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 851,
+            "short_name": "S4",
+            "name": "Yellowtail Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 852,
+            "short_name": "S5",
+            "name": "Salmon Skin & Cucumber Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 5.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 853,
+            "short_name": "S6",
+            "name": "Tuna and Avocado Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 854,
+            "short_name": "S7",
+            "name": "Salmon and Avocado Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 855,
+            "short_name": "S8",
+            "name": "Yellowtail and Avocado Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 856,
+            "short_name": "S",
+            "name": "Spicy Tuna Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 857,
+            "short_name": "D1",
+            "name": "Spicy Salmon Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 858,
+            "short_name": "D2",
+            "name": "Fried Sweet Potato Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 859,
+            "short_name": "D_C",
+            "name": "Philadelphia Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 6.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 860,
+            "short_name": "D3",
+            "name": "Salmon Tempura Cooked Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 9.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 861,
+            "short_name": "D4",
+            "name": "Teriyaki Tuna Cooked Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 8,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 862,
+            "short_name": "D5",
+            "name": "Teriyaki Salmon Cooked Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 8,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 863,
+            "short_name": "D6",
+            "name": "Tiriyaki Combo Cooked Sushi Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 9.5,
+            "small_portion_name": null,
+            "large_portion_name": null
+        },
+        {
+            "id": 864,
+            "short_name": "D",
+            "name": "Tuna and Cucumber Temaki Roll",
+            "description": "",
+            "price_small": null,
+            "price_large": 7,
+            "small_portion_name": null,
+            "large_portion_name": null
+        }
+    ]
+}

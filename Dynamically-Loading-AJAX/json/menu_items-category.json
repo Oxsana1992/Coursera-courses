@@ -1,5 +1,9 @@
 {
-    "menu_items": [
+    "category": {
+        "short_name": "SO",
+        "name": "Soup",
+        "special_instructions": "",
+        "menu_items": [
         {
             "id": 811,
             "short_name": "SO1",
@@ -70,10 +74,6 @@
             "small_portion_name": "pint",
             "large_portion_name": "quart"
         }
-    ],
-    "category": {
-        "short_name": "SO",
-        "name": "Soup",
-        "special_instructions": ""
+        ]
     }
 }

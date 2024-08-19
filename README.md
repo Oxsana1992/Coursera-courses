@@ -1,2 +1,2 @@
 # Coursera-courses
-Courses I take on Coursera
+This repository contains the result of my training in one of the training courses on Coursera

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 81,
+        "short_name": "C",
+        "name": "Chicken",
+        "special_instructions": "Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll.",
+        "url": "json/categories/81.json"
+    },
+    {
+        "id": 82,
+        "short_name": "SO",
+        "name": "Soup",
+        "special_instructions": "",
+        "url": "json/categories/82.json"
+    },
+    {
+        "id": 83,
+        "short_name": "M",
+        "name": "Meat",
+        "special_instructions": "",
+        "url": "json/categories/83.json"
+    },
+    {
+        "id": 84,
+        "short_name": "HP",
+        "name": "Hot-Pot",
+        "special_instructions": "",
+        "url": "json/categories/84.json"
+    },
+    {
+        "id": 85,
+        "short_name": "F",
+        "name": "Fish",
+        "special_instructions": "",
+        "url": "json/categories/85.json"
+    },
+    {
+        "id": 86,
+        "short_name": "DU",
+        "name": "Dumpling",
+        "special_instructions": "",
+        "url": "json/categories/86.json"
+    },
+    {
+        "id": 87,
+        "short_name": "N",
+        "name": "Noodles",
+        "special_instructions": "",
+        "url": "json/categories/87.json"
+    },
+    {
+        "id": 88,
+        "short_name": "R",
+        "name": "Rice",
+        "special_instructions": "",
+        "url": "json/categories/88.json"
+    },
+    {
+        "id": 89,
+        "short_name": "S",
+        "name": "Seafood",
+        "special_instructions": "",
+        "url": "json/categories/89.json"
+    },
+    {
+        "id": 90,
+        "short_name": "SN",
+        "name": "Snacks",
+        "special_instructions": "",
+        "url": "json/categories/90.json"
+    },
+    {
+        "id": 91,
+        "short_name": "D",
+        "name": "Dessert",
+        "special_instructions": "",
+        "url": "json/categories/91.json"
+    },
+    {
+        "id": 92,
+        "short_name": "SP",
+        "name": "Specials",
+        "special_instructions": "",
+        "url": "json/categories/92.json"
+    }
+]

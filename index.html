@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>China Bistro</title>
+    <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Lora"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="visible-md visible-lg">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>China Bistro</h1></a>
+              <div class="kosher-star">
+                <img
+                  src="src/images/star-k-logo.png"
+                  alt="Kosher certification"
+                />
+                <span>Kosher Certified</span>
+              </div>
+            </div>
+            <button
+              id="navarTogger"
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li id="navHomeButton" class="visible-xs active">
+                <div class="iconstyle">
+                  <i class="large material-icons">home</i>
+                </div>
+                <a href="index.html">Home</a>
+              </li>
+              <li id="navMenuButton">
+                <a href="#" onclick="$dc.loadMenuCategories();"
+                  ><br class="hidden-xs" />
+                  <div class="iconstyle">
+                    <i class="large material-icons">restaurant</i>
+                  </div>
+                  Menu</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><br class="hidden-xs" />
+                  <div class="iconstyle">
+                    <i class="large material-icons">filter_vintage</i>
+                  </div>
+                  About</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <br class="hidden-xs" />
+                  <div class="iconstyle">
+                    <i class="large material-icons">font_download</i>
+                  </div>
+                  Awards</a
+                >
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:000-000-0000"
+                  ><span class="iconstyle">
+                    <i class="small material-icons">call</i> </span
+                  ><span>000-000-0000</span></a
+                >
+                <div>* We Deliver</div>
+              </li>
+            </ul>
+            <!--#nav-list-->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+      <a class="btn" href="tel:000-000-0000"> 000-000-0000 </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+    <div id="main-content" class="container"></div>
+    <!--End of #main-content-->
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hourd:</span><br />Sun-Thurs: 11:15am - 10:00pm<br />Fri:
+            11:15am - 2:30pm<br />Saturday Closed
+            <hr class="visible-xs" />
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br />7105 Reisterstown Road<br />Baltimore, MD
+            21215
+            <p>
+              * Delivery area within 3-4 miles, with minimum order of $20 charge
+              for all deliveries.
+            </p>
+            <hr class="visible-xs" />
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>
+              "The dest Chinese restaurant I've been to! And that's sayin a lot,
+              since I've been to many!"
+            </p>
+            <p>
+              "Amazing food! Great service! Coujdn't ask for more! I'll be back
+              again and again!"
+            </p>
+          </section>
+        </div>
+        <div class="text-center">&copy; Copyright China Bistro 2015</div>
+      </div>
+    </footer>
+
+    <!--JQuery (Bootstrap JS plugins depend on it-->
+    <script src="src/js/jquery-3.6.1.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/ajax-utils.js"></script>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
